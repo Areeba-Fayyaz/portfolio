@@ -1,0 +1,97 @@
+/* navigation bar */
+#navbar ul {
+	justify-content: center;
+	font-family: none;
+}
+#navbar ul li {
+	padding: 1%;
+}
+#navbar ul li a {
+	font-size: 1rem;
+	padding-right: 7px;
+	padding-left: 4px;
+}
+/* home section */
+#profilePhoto {
+	width: 22%;
+}
+#home {
+	padding-top: 70px;
+	padding-right: 10px;
+	padding-left: 10px;
+	height: 600px;
+}
+#home::before {
+	height: 608px;
+}
+#home p {
+	font-size: 1rem;
+	font-family: none;
+}
+#home h1 {
+	font-family: none;
+}
+
+/* project section */
+#project .projectBox {
+	padding: 14px;
+	margin: 13px;
+}
+#project .projectBox img {
+	width: 60%;
+	height: 60%;
+}
+
+#project {
+	flex-direction: column;
+	justify-content: center;
+	margin: 9px;
+}
+
+#project-container p {
+	font-family: none;
+}
+/* cv section */
+#cv .workexpBox {
+	flex-wrap: wrap;
+	padding-left: 7%;
+	padding-right: 7%;
+	justify-content: none;
+}
+#cv-container h1 {
+	padding-top: 3%;
+}
+#cv .workexpBox p {
+	font-size: 1rem;
+}
+#cv .workexpBox p1 {
+	font-family: none;
+}
+
+/* contact section */
+.contactbox {
+	padding-left: 7%;
+	font-family: none;
+}
+.contactbox li {
+	font-size: 0.9rem;
+	font-family: none;
+}
+
+/* utility classes */
+.heading1 {
+	font-size: 2.1rem;
+	font-family: none;
+}
+.heading2 {
+	font-size: 1.7rem;
+	font-family: none;
+}
+.heading3 {
+	font-size: 1.3rem;
+	font-family: none;
+}
+.btn {
+	margin-bottom: 90px;
+	font-size: 13px;
+}
